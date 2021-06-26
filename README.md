@@ -3,3 +3,4 @@
 <a href="#"><img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/vital-forge/better-alchemy?label=datapack%20size"></a>
 <a href="#"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/vital-forge/better-alchemy?color=blue&label=version&logoColor=FFF"></a>
 <a href="#"><img alt="GitHub" src="https://img.shields.io/github/license/vital-forge/better-alchemy"></a>
+<a href="#"><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/vital-forge/better-alchemy?include_prereleases&label=pre-release"></a>
