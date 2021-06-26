@@ -9,3 +9,6 @@
 <a href="#"><img alt="GitHub" src="https://img.shields.io/github/license/vital-forge/better-alchemy"></a>  
 
 [**DOWNLOAD DATAPACK**](https://github.com/Vital-Forge/Better-Alchemy/releases)
+
+**Develops**  
+<a href="https://github.com/Werckut"><img alt="GitHub followers" src="https://img.shields.io/github/followers/werckut?label=Werckut&style=social"></a> *(art/dev)*
