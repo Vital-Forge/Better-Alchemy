@@ -1,0 +1,11 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/diamond_hoe"
+	},
+
+	"overrides": [
+		{"predicate": {"custom_model_data":11001}, "model": "custom_block/better_cauldron"},
+		{"predicate": {"custom_model_data":11002}, "model": "custom_block/alembic"}
+	]
+}

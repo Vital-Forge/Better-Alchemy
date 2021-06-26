@@ -1,0 +1,18 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/alembic_interface/base.png",
+			"ascent": 183,
+			"height": 256,
+			"chars": ["\uE001"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/mixer_interface/base.png",
+			"ascent": 183,
+			"height": 256,
+			"chars": ["\uE002"]
+		}
+	]
+}

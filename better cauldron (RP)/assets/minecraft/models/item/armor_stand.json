@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/armor_stand"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":11001}, "model": "custom_item/better_cauldron"},
+		{"predicate": {"custom_model_data":11002}, "model": "custom_item/alembic"}
+	]
+}
