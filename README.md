@@ -12,3 +12,9 @@
 
 **Develops**  
 <a href="https://github.com/Werckut"><img alt="GitHub followers" src="https://img.shields.io/github/followers/werckut?label=Werckut&style=social"></a>
+
+## Инструкция
+
+1. Переместите `Better Alchemy (RP)` в папку `.minecraft/resursepacks`
+2. Переместите `Better Alchemy` в папку по пути `.minecraft/save/<мир>/datapacks`
+3. Запустите `<мир>`
