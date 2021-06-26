@@ -1,0 +1,1 @@
+particle falling_dust minecraft:blue_ice ~ ~0.5 ~ 0.25 0.25 0.25 0.25 1

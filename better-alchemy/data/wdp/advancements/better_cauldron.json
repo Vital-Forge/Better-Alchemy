@@ -1,0 +1,13 @@
+{
+  "criteria": {
+      "unlocked": {
+          "trigger": "minecraft:recipe_unlocked",
+          "conditions": {
+              "recipe": "wdp:better_cauldron"
+          }
+      }
+  },
+  "rewards": {
+      "function": "wdp:recipes/better_cauldron"
+  }
+}
