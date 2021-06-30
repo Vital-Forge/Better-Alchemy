@@ -5,7 +5,7 @@
 	},
 
 	"overrides": [
-		{"predicate": {"custom_model_data":11001}, "model": "custom_item/splash_glass_bottle"},
-		{"predicate": {"custom_model_data":11002}, "model": "custom_item/lingering_glass_bottle"}
+		{"predicate": {"custom_model_data":11001}, "model": "custom/item/splash_glass_bottle"},
+		{"predicate": {"custom_model_data":11002}, "model": "custom/item/lingering_glass_bottle"}
 	]
 }

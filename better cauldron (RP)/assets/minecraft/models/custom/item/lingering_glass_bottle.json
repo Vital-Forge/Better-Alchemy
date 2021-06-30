@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "custom_item/splash_glass_bottle"
+        "layer0": "custom/item/lingering_glass_bottle"
     }
 }
