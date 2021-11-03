@@ -6,7 +6,7 @@
 
 <a href="#"><img alt="GitHub" src="https://img.shields.io/github/license/vital-forge/better-alchemy"></a>  
 
-[**DOWNLOAD DATAPACK**](https://github.com/Vital-Forge/Better-Alchemy/releases)  
+[**DOWNLOAD LATEST RELEASE**](https://github.com/Vital-Forge/Better-Alchemy/archive/refs/tags/0.2.zip)  
 [**DATAPACK's WIKI**](https://vital-forge.github.io/datapacks/better_alchemy/ru.html)
 
 **Develops**  
