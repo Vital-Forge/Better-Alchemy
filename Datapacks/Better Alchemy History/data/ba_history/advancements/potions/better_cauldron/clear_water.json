@@ -1,0 +1,32 @@
+{
+    "parent": "ba_history:potions/better_cauldron/root",
+    "display": {
+        "icon": {
+            "item": "potion",
+            "nbt": "{CustomPotionColor:28415}"
+        },
+        "title": "Чистая вода",
+        "description": [
+            {"text":"* Синий лёд", "color": "yellow"}
+        ],
+        "hidden": true,
+        "frame": "goal"
+    },
+    "criteria": {
+        "potion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion",
+                            "splash_potion",
+                            "lingering_potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:37b}]}"
+                    }
+                ]
+            }
+        }
+    }
+}

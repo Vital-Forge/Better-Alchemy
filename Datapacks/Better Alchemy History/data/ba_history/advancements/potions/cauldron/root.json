@@ -1,0 +1,29 @@
+{
+    "parent": "ba_history:alchemy_root",
+    "display": {
+        "icon": {
+            "item": "ghast_spawn_egg",
+            "nbt": "{CustomModelData:1170101}"
+        },
+        "title": "Котёл зельевара",
+        "description": "",
+        "frame": "goal",
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "ghast_spawn_egg"
+                        ],
+                        "nbt": "{EntityTag:{Tags:[\"vfba_CauldronBuilder\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

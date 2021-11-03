@@ -1,0 +1,33 @@
+{
+    "parent": "ba_history:potions/better_cauldron/clear_water",
+    "display": {
+        "icon": {
+            "item": "potion",
+            "nbt": "{CustomPotionColor:8833535}"
+        },
+        "title": "Полярная кровь",
+        "description": [
+            {"text":"* Чистая вода        ", "color": "aqua"},
+            {"text":"# Рыхлый снег", "color": "gray"}
+        ],
+        "hidden": true,
+        "frame": "goal"
+    },
+    "criteria": {
+        "potion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion",
+                            "splash_potion",
+                            "lingering_potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:35b}]}"
+                    }
+                ]
+            }
+        }
+    }
+}

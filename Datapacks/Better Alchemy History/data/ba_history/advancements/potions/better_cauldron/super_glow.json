@@ -1,0 +1,30 @@
+{
+    "parent": "ba_history:potions/better_cauldron/root",
+    "display": {
+        "icon": {
+            "item": "potion",
+            "nbt": "{CustomPotionColor:15073024}"
+        },
+        "title": "Озарение",
+        "description": "",
+        "hidden": true,
+        "frame": "goal"
+    },
+    "criteria": {
+        "potion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion",
+                            "splash_potion",
+                            "lingering_potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:41b}]}"
+                    }
+                ]
+            }
+        }
+    }
+}

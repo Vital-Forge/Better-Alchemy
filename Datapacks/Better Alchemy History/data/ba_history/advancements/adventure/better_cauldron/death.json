@@ -1,0 +1,25 @@
+{
+    "parent": "ba_history:adventure/better_cauldron/crafted",
+    "display": {
+        "icon": {
+            "item": "potion",
+            "nbt": "{CustomPotionColor:4144959}"
+        },
+        "title": "Взглянуть в глаза смерти",
+        "description": "Выпейте запретное зелье",
+        "frame": "goal"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "potion"
+                    ],
+                    "nbt": "{CustomPotionEffects:[{Id:39b}]}"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"regeneration\"}"
+        },
+        "title": "Алхимия",
+        "description": "",
+        "background": "minecraft:textures/block/deepslate.png",
+        "announce_to_chat": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion",
+                            "splash_potion",
+                            "lingering_potion"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

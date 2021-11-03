@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "r_u": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "better_alchemy:cauldron"
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["better_alchemy:cauldron_overlay"],
+        "function": "better_alchemy:cauldron/events/crafted"
+    }
+}

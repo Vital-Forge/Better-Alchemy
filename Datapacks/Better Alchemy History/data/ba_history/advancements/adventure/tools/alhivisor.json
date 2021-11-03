@@ -1,0 +1,27 @@
+{
+    "parent": "ba_history:adventure/tools/first_tool",
+    "display": {
+        "icon": {
+            "item": "minecraft:knowledge_book",
+            "nbt": "{CustomModelData:1170101}"
+        },
+        "title": "Инструментарий",
+        "description": "Создайте прибой помогающий в алхимии",
+        "frame": "goal"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "knowledge_book"
+                        ],
+                        "nbt": "{CustomModelData:1170101}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "ba_history:adventure/deary",
+    "display": {
+        "icon": {
+            "item": "minecraft:cauldron"
+        },
+        "title": "Оригинальный сосуд",
+        "description": "Создайте котёл зельевара",
+        "frame": "goal"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "ghast_spawn_egg"
+                        ],
+                        "nbt": "{EntityTag:{Tags:[\"vfba_CauldronBuilder\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "parent": "ba_history:adventure/cauldron/more_bottles",
+    "display": {
+        "icon": {
+            "item": "glass_bottle"
+        },
+        "title": "Ушёл в обиход",
+        "description": "Испробуйте всю алхимическу посуду",
+        "frame": "goal"
+    },
+    "criteria": {
+        "glass_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["glass_bottle"]}]
+            }
+        },
+        "splash_glass_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["glass_bottle"],
+                    "nbt": "{CustomModelData:1170101}"
+                }]
+            }
+        },
+        "lingering_glass_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["glass_bottle"],
+                    "nbt": "{CustomModelData:1170102}"
+                }]
+            }
+        },
+        "temp_glass_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["glass_bottle"],
+                    "nbt": "{CustomModelData:1170103}"
+                }]
+            }
+        },
+        "temp_splash_glass_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["glass_bottle"],
+                    "nbt": "{CustomModelData:1170104}"
+                }]
+            }
+        },
+        "temp_lingering_glass_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["glass_bottle"],
+                    "nbt": "{CustomModelData:1170105}"
+                }]
+            }
+        },
+        "tinted_glass_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["glass_bottle"],
+                    "nbt": "{CustomModelData:1170106}"
+                }]
+            }
+        },
+        "tinted_splash_glass_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["glass_bottle"],
+                    "nbt": "{CustomModelData:1170107}"
+                }]
+            }
+        },
+        "tinted_lingering_glass_bottle": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["glass_bottle"],
+                    "nbt": "{CustomModelData:1170108}"
+                }]
+            }
+        }
+    }
+}

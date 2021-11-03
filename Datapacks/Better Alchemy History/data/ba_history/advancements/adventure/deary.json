@@ -1,0 +1,23 @@
+{
+    "parent": "ba_history:history_root",
+    "display": {
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "title": "Первые капли пота",
+        "description": "Начните свой дневник",
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["writable_book"]
+                    }
+                ]
+            }
+        }
+    }
+}

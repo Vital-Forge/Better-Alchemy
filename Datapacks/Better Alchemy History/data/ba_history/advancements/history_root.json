@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "enchanted_book"
+        },
+        "title": "История алхимика",
+        "description": "Сделай первый шаг в изучении Better Alchemy",
+        "frame": "challenge",
+        "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "tick"
+        }
+    }
+}

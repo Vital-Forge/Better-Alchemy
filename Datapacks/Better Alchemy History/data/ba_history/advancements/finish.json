@@ -1,0 +1,14 @@
+{
+    "parent": "ba_history:history_root",
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": "Под отказ",
+        "description": "Создайте полное пособие по алхимии",
+        "frame": "challenge"
+    },
+    "criteria": {
+        
+    }
+}

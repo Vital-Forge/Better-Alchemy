@@ -1,0 +1,26 @@
+{
+    "parent": "ba_history:adventure/cauldron/crafted",
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:28415}"
+        },
+        "title": "Сверкающая микстура",
+        "description": "Попробуйте себя в зельеварении",
+        "frame": "goal"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

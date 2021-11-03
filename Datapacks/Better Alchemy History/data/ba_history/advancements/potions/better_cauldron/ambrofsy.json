@@ -1,0 +1,34 @@
+{
+    "parent": "ba_history:potions/alembic/alchohol",
+    "display": {
+        "icon": {
+            "item": "potion",
+            "nbt": "{CustomPotionColor:16767232}"
+        },
+        "title": "Амброзия     ",
+        "description": [
+            {"text":"* Золотая морковь ", "color":"red"},
+            {"text":"* Золотое яблоко  ", "color":"red"},
+            {"text":"* Алкоголь", "color":"yellow"}
+        ],
+        "hidden": true,
+        "frame": "goal"
+    },
+    "criteria": {
+        "potion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion",
+                            "splash_potion",
+                            "lingering_potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:33b}]}"
+                    }
+                ]
+            }
+        }
+    }
+}

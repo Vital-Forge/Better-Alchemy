@@ -1,0 +1,29 @@
+{
+    "parent": "ba_history:potions/cauldron/root",
+    "display": {
+        "icon": {
+            "item": "ghast_spawn_egg",
+            "nbt": "{CustomModelData:1170103}"
+        },
+        "title": "Перегонный куб",
+        "description": "",
+        "announce_to_chat": false,
+        "hidden": true,
+        "frame": "goal"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "ghast_spawn_egg"
+                        ],
+                        "nbt": "{EntityTag:{Tags:[\"vfba_AlembicBuilder\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

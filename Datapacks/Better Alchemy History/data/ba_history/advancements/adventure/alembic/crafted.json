@@ -1,0 +1,26 @@
+{
+    "parent": "ba_history:adventure/deary",
+    "display": {
+        "icon": {
+            "item": "ghast_spawn_egg",
+            "nbt": "{CustomModelData:1170103}"
+        },
+        "title": "С большой головой",
+        "description": "Создайте перегонный куб"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "ghast_spawn_egg"
+                        ],
+                        "nbt": "{EntityTag:{Tags:[\"vfba_AlembicBuilder\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

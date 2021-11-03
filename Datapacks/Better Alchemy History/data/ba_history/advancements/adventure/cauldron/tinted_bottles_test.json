@@ -1,0 +1,39 @@
+{
+    "parent": "ba_history:adventure/cauldron/tinted_bottles",
+    "display": {
+        "icon": {
+            "item": "lingering_potion",
+            "nbt": "{CustomModelData:1170102}"
+        },
+        "title": "К летнему сезону готов",
+        "description": "Испробуйте затемнённую посуду",
+        "frame": "goal"
+    },
+    "criteria": {
+        "potion": {
+            "trigger": "consume_item",
+            "conditions": {
+                "items": [{"items": ["potion"],
+                    "nbt": "{CustomModelData:1170102}"
+                }]
+            }
+        },
+        "splash_potion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["splash_potion"],
+                    "nbt": "{CustomModelData:1170102}"
+                }]
+            }
+        },
+        "lingering_potion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["lingering_potion"],
+                    "nbt": "{CustomModelData:1170102}"
+                }]
+            }
+        }
+    }
+
+}

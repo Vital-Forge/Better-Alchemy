@@ -1,0 +1,25 @@
+{
+    "parent": "ba_history:adventure/alembic/crafted",
+    "display": {
+        "icon": {
+            "item": "potion",
+            "nbt": "{CustomPotionColor:14319413}"
+        },
+        "title": "I'm not alchoholic",
+        "description": "Попробуйте чего покрепче",
+        "frame": "goal"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "potion"
+                    ],
+                    "nbt": "{CustomPotionEffects:[{Id:34b}]}"
+                }
+            }
+        }
+    }
+}

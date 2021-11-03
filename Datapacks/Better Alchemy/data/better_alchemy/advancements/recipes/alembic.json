@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "r_u": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "better_alchemy:alembic"
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["better_alchemy:alembic_overlay"],
+        "function": "better_alchemy:alembic/events/crafted"
+    }
+}

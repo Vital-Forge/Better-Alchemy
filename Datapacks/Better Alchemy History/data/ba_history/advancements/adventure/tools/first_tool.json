@@ -1,0 +1,42 @@
+{
+    "parent": "ba_history:history_root",
+    "display": {
+        "icon": {
+            "item": "minecraft:knowledge_book",
+            "nbt": "{CustomModelData:1170102}"
+        },
+        "title": "Инструментарий",
+        "description": "Создайте прибой помогающий в алхимии"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "knowledge_book"
+                        ],
+                        "nbt": "{CustomModelData:1170101}"
+                    }
+                ]
+            }
+        },
+        "task2": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "knowledge_book"
+                        ],
+                        "nbt": "{CustomModelData:1170102}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["task", "task2"]
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "ba_history:adventure/cauldron/first_potion",
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": "Первые капли пота",
+        "description": "Окунитесь в зельеварение с головой"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ]
+                    }
+                ]
+            }
+        },
+        "task2": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "warped_fungus_on_a_stick"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

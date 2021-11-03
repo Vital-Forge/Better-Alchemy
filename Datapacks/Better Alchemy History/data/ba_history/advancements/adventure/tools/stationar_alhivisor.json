@@ -1,0 +1,26 @@
+{
+    "parent": "ba_history:adventure/tools/alhivisor",
+    "display": {
+        "icon": {
+            "item": "minecraft:knowledge_book",
+            "nbt": "{CustomModelData:1170103}"
+        },
+        "title": "Инструментарий",
+        "description": "Создайте прибой помогающий в алхимии"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "knowledge_book"
+                        ],
+                        "nbt": "{CustomModelData:1170103}"
+                    }
+                ]
+            }
+        }
+    }
+}

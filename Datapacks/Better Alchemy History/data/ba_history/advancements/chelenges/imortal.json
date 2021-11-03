@@ -1,0 +1,40 @@
+{
+    "parent": "ba_history:adventure/better_cauldron/death",
+    "display": {
+        "icon": {
+            "item": "wither_rose"
+        },
+        "title": "Избежал смерти",
+        "description":[{"text":"Останьтесь в живых после употребления "},{"text":"последнего ритуала", "color": "dark_red"}],
+        "frame": "challenge"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "potion"
+                    ],
+                    "nbt": "{tag:{CustomPotionEffects:[{Id:39b}]}}"
+                }
+            }
+        },
+        "2": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "effects": {
+                    "wither": {
+                        "duration": 5
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1",
+            "2"
+        ]
+    ]
+}

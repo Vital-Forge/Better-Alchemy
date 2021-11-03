@@ -1,0 +1,26 @@
+{
+    "parent": "ba_history:adventure/deary",
+    "display": {
+        "icon": {
+            "item": "ghast_spawn_egg",
+            "nbt": "{CustomModelData:1170102}"
+        },
+        "title": "Усложнение",
+        "description": "Создайте продвинутый котёл алхимика"
+    },
+    "criteria": {
+        "task": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "ghast_spawn_egg"
+                        ],
+                        "nbt": "{EntityTag:{Tags:[\"vfba_BetterCauldronBuilder\"]}}"
+                    }
+                ]
+            }
+        }
+    }
+}

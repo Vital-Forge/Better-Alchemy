@@ -1,0 +1,145 @@
+{
+    "parent": "ba_history:chelenges/root",
+    "display": {
+        "icon": {
+            "item": "potion",
+            "nbt": "{CustomPotionColor:1170100}"
+        },
+        "title": "Из капли пота",
+        "description": "Создайте все возможные зелья",
+        "frame": "challenge",
+        "hidden": false
+    },
+    "criteria": {
+        "p1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:33b}]}"
+                    }
+                ]
+            }
+        },
+        "p2": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:34b}]}"
+                    }
+                ]
+            }
+        },
+        "p3": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:35b}]}"
+                    }
+                ]
+            }
+        },
+        "p4": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:36b}]}"
+                    }
+                ]
+            }
+        },
+        "p5": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:37b}]}"
+                    }
+                ]
+            }
+        },
+        "p6": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:38b}]}"
+                    }
+                ]
+            }
+        },
+        "p7": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:39b}]}"
+                    }
+                ]
+            }
+        },
+        "p8": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:40b}]}"
+                    }
+                ]
+            }
+        },
+        "p9": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:41b}]}"
+                    }
+                ]
+            }
+        },
+        "p10": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:42b}]}"
+                    }
+                ]
+            }
+        }
+    }
+}

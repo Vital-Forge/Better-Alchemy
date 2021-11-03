@@ -1,0 +1,30 @@
+{
+    "parent": "ba_history:potions/alembic/alchohol",
+    "display": {
+        "icon": {
+            "item": "potion",
+            "nbt": "{CustomPotionColor:7232580}"
+        },
+        "title": "Падший",
+        "description": "",
+        "hidden": true,
+        "frame": "goal"
+    },
+    "criteria": {
+        "potion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "potion",
+                            "splash_potion",
+                            "lingering_potion"
+                        ],
+                        "nbt": "{CustomPotionEffects:[{Id:42b}]}"
+                    }
+                ]
+            }
+        }
+    }
+}

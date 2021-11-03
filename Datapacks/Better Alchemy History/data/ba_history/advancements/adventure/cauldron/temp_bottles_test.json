@@ -1,0 +1,39 @@
+{
+    "parent": "ba_history:adventure/cauldron/temp_bottles",
+    "display": {
+        "icon": {
+            "item": "lingering_potion",
+            "nbt": "{CustomModelData:1170101}"
+        },
+        "title": "Преданный делу",
+        "description": "Испробуйте новую посуду",
+        "frame": "goal"
+    },
+    "criteria": {
+        "potion": {
+            "trigger": "consume_item",
+            "conditions": {
+                "items": [{"items": ["potion"],
+                    "nbt": "{CustomModelData:1170101}"
+                }]
+            }
+        },
+        "splash_potion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["splash_potion"],
+                    "nbt": "{CustomModelData:1170101}"
+                }]
+            }
+        },
+        "lingering_potion": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": ["lingering_potion"],
+                    "nbt": "{CustomModelData:1170101}"
+                }]
+            }
+        }
+    }
+
+}

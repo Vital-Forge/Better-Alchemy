@@ -1,0 +1,19 @@
+{
+    "parent": "ba_history:alchemy_root",
+    "display": {
+        "icon": {
+            "item": "nether_star"
+        },
+        "title": "",
+        "description": "",
+        "hidden": true
+    },
+    "criteria": {
+        "task": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {"items": ["stone"]}
+            }
+        }
+    }
+}
