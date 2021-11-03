@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:item/template_spawn_egg",
+	"overrides": [
+		{"predicate": {"custom_model_data":1170101}, "model": "custom/item/cauldron"},
+		{"predicate": {"custom_model_data":1170102}, "model": "custom/item/better_cauldron"},
+		{"predicate": {"custom_model_data":1170103}, "model": "custom/item/alembic"}
+	]
+}

@@ -2,7 +2,7 @@
 	"providers": [
 		{
 			"type": "bitmap",
-			"file": "minecraft:font/alembic_interface/base.png",
+			"file": "minecraft:font/interfaces/alembic/base.png",
 			"ascent": 183,
 			"height": 256,
 			"chars": ["\uE001"]

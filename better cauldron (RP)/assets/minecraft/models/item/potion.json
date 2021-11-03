@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+
+	"overrides": [
+		{"predicate": {"custom_model_data":1170101}, "model": "custom/item/temp_potion"},
+		{"predicate": {"custom_model_data":1170102}, "model": "custom/item/tinted_potion"}
+	]
+}

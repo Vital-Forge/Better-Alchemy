@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "custom/item/loope"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"translation": [-9, 8.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -70, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

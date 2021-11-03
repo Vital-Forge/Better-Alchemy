@@ -6,41 +6,6 @@
 			"shift": [0.0, 0.0],
 			"size": 10.0,
 			"oversample": 1.0
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/alembic_interface/base.png",
-			"ascent": 183,
-			"height": 256,
-			"chars": ["\uE001"]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/alembic_interface/water_level_0.png",
-			"ascent": 183,
-			"height": 256,
-			"chars": ["\uE002"]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/alembic_interface/water_level_1.png",
-			"ascent": 183,
-			"height": 256,
-			"chars": ["\uE003"]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/alembic_interface/water_level_2.png",
-			"ascent": 183,
-			"height": 256,
-			"chars": ["\uE004"]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:font/alembic_interface/water_level_3.png",
-			"ascent": 183,
-			"height": 256,
-			"chars": ["\uE005"]
 		}
 	]
 }

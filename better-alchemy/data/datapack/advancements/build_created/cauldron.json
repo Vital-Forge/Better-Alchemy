@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "used": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "ghast_spawn_egg"
+                    ],
+                    "nbt": "{CustomModelData:1170101}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["datapack:cauldron_overlay"],
+        "function": "datapack:cauldron/events/build"
+    }
+}

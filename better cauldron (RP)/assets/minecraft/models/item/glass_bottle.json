@@ -5,7 +5,13 @@
 	},
 
 	"overrides": [
-		{"predicate": {"custom_model_data":11001}, "model": "custom/item/splash_glass_bottle"},
-		{"predicate": {"custom_model_data":11002}, "model": "custom/item/lingering_glass_bottle"}
+		{"predicate": {"custom_model_data":1170101}, "model": "custom/item/splash_glass_bottle"},
+		{"predicate": {"custom_model_data":1170102}, "model": "custom/item/lingering_glass_bottle"},
+		{"predicate": {"custom_model_data":1170103}, "model": "custom/item/temp_glass_bottle"},
+		{"predicate": {"custom_model_data":1170104}, "model": "custom/item/temp_splash_glass_bottle"},
+		{"predicate": {"custom_model_data":1170105}, "model": "custom/item/temp_lingering_glass_bottle"},
+		{"predicate": {"custom_model_data":1170106}, "model": "custom/item/tinted_glass_bottle"},
+		{"predicate": {"custom_model_data":1170107}, "model": "custom/item/tinted_splash_glass_bottle"},
+		{"predicate": {"custom_model_data":1170108}, "model": "custom/item/tinted_lingering_glass_bottle"}
 	]
 }

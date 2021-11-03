@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "used": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "ghast_spawn_egg"
+                    ],
+                    "nbt": "{CustomModelData:1170103}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "datapack:alembic/events/build"
+    }
+}

@@ -5,7 +5,8 @@
 	},
 
 	"overrides": [
-		{"predicate": {"custom_model_data":11001}, "model": "custom/block/better_cauldron"},
-		{"predicate": {"custom_model_data":11002}, "model": "custom/block/alembic"}
+		{"predicate": {"custom_model_data":1170101}, "model": "custom/building/better_cauldron"},
+		{"predicate": {"custom_model_data":1170102}, "model": "custom/building/better_cauldron"},
+		{"predicate": {"custom_model_data":1170103}, "model": "custom/building/alembic"}
 	]
 }

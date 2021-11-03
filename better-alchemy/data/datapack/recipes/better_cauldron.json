@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "c a",
+        "iCi",
+        "ini"
+    ],
+    "key": {
+        "a": {
+            "item": "amethyst_shard"
+        },
+        "c": {
+            "item": "black_candle"
+        },
+        "n": {
+            "item": "netherite_ingot"
+        },
+        "i": {
+            "item": "iron_ingot"
+        },
+        "C": {
+            "item": "cauldron"
+        }
+    },
+    "result": {
+        "item": "knowledge_book"
+    }
+}

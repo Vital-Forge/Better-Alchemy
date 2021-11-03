@@ -1,0 +1,1 @@
+data modify entity @s ArmorItems[3].tag.Potions append value {id:"potion", Count:1b, tag:{display:{Name:'{"text":"Чистая вода","color":"white","italic":false}'}, CustomPotionEffects:[{Id:37b}], CustomPotionColor:28415}}

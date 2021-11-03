@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "aCc"
+    ],
+    "key": {
+        "a": {
+            "item": "amethyst_shard"
+        },
+        "c": {
+            "item": "black_candle"
+        },
+        "C": {
+            "item": "cauldron"
+        }
+    },
+    "result": {
+        "item": "knowledge_book"
+    }
+}

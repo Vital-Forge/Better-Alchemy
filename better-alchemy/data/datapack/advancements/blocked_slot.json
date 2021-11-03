@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "picked_up": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "glass_pane"
+                        ],
+                        "nbt": "{blocked_slot:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "datapack:events/blocked_slot"
+    }
+}

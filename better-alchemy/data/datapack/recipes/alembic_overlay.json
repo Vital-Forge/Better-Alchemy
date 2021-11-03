@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "iii",
+        "iIi",
+        "nCn"
+    ],
+    "key": {
+        "i": {
+            "item": "iron_ingot"
+        },
+        "n": {
+            "item": "netherite_ingot"
+        },
+        "I": {
+            "item": "iron_block"
+        },
+        "C": {
+            "item": "cauldron"
+        }
+    },
+    "result": {
+        "item": "knowledge_book",
+        "count": 3
+    }
+}

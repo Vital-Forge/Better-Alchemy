@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "r_u": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "datapack:alembic"
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["datapack:alembic_overlay"],
+        "function": "datapack:alembic/events/crafted"
+    }
+}
